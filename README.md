@@ -6,6 +6,13 @@ Try running the following commands:
 - dbt run
 - dbt test
 
+## Hevo Pipeline Configuration
+- **Source:** PostgreSQL (AWS EC2)
+- **Destination:** Snowflake
+- **Ingestion Mode:** Logical Replication
+- **Tables Ingested:** raw_customers, raw_orders, raw_payments
+
+> Note: Hevo Team ID and Pipeline ID are included in the submission email.
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
